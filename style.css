@@ -8,14 +8,14 @@
 
 }
 body {
-    background-color: #06283D;
+    background-color: rgba(116, 109, 99, 0.8);
 }
 
 .header {
     display: flex;
     align-items: center;
     height: 60px;
-    background-color: #F05454;
+    background-color: #DC944C;
     margin-top: 15px;
     width: 85%;
     border-radius: 40px;
@@ -56,8 +56,8 @@ a {
 }
 
 .header-right ul li a:hover {
-    color: #F05454;
-    background-color: #06283D;
+    color: #DC944C;
+    background-color: #746D63CC;
 }
 .wrapper {
     align-items: center;
@@ -69,8 +69,8 @@ a {
     z-index: 1;
 }
 .active {
-     color: #F05454;
-    background-color: #06283D;
+     color: #DC944C;
+    background-color: #746D63CC;
 }
 
 footer img {
@@ -78,7 +78,7 @@ footer img {
   }
   
   footer p {
-    color: #06283D;
+    color: #746D63CC;
     font-size: 12px;
   }
   
@@ -87,7 +87,7 @@ footer img {
     padding-bottom: 20px;
     padding-left: 20px;
     
-    background-color: #F05454;
+    background-color: #DC944C;
     display: flex;
     font-size: medium;
   }
@@ -128,7 +128,7 @@ footer img {
     margin: 10px 10px 0 5px;
   }
 .wrapper h1 {
-    color: #F05454;
+    color: #DC944C;
     position:  relative;
     width: 50%;
     text-align: center;
@@ -158,11 +158,11 @@ footer img {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(6, 40, 61, 0.6);
+    background-color: rgba(116, 109, 99, 0.4);
     z-index: 0;
 }
 .wrapper p {
-    color: #F05454;
+    color: #DC944C;
     width: 50%;
     margin: 0 auto;
     letter-spacing: 1px;
