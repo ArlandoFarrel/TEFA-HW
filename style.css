@@ -1,0 +1,171 @@
+* {
+    width: 100%;
+    box-sizing: border-box;
+    color: #06283D;
+    font-family: 'Lucida Grande';
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    background-color: #06283D;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #F05454;
+    margin-top: 15px;
+    width: 85%;
+    border-radius: 40px;
+    
+}
+.header-left{
+width: 20%;
+}
+
+.header-left h1 {
+    font-weight: bold;
+    
+}
+.header-right ul {
+    list-style: none;
+    display: flex;
+    width: 60%;
+    float: right;
+    /* margin-right: 200px; */
+    justify-content: space-between;
+    font-weight: bold;
+    
+    
+}
+.header-right ul li {
+    /* padding: 0px 10px 0px 10px; */
+    display: flex;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+}
+.header-right ul li a {
+    border-radius: 24px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    margin-right: 30px;
+}
+
+.header-right ul li a:hover {
+    color: #F05454;
+    background-color: #06283D;
+}
+.wrapper {
+    align-items: center;
+    display: block;
+}
+.video {
+    width: 65%; 
+    position: relative;
+    z-index: 1;
+}
+.active {
+     color: #F05454;
+    background-color: #06283D;
+}
+
+footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #06283D;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+    background-color: #F05454;
+    display: flex;
+    font-size: medium;
+  }
+  ul {
+    list-style: none;
+  }
+  footer p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  footer ul li {
+    margin-top: 5px;
+  }
+  .container {
+    padding-left: 75px;
+   
+    width: 40%;
+  }
+  .container ul {
+    margin-top: 10px;
+  }
+  .thanks {
+    text-align: center;
+    
+    display: flex;
+    width: 60%;
+  }
+  .box ul {
+    margin-top: 10px;
+  }
+  .ico ul {
+    display: flex;
+    justify-content: center;
+  }
+  .ico ul li {
+    width: 30px;
+    align-items: center;
+    margin: 10px 10px 0 5px;
+  }
+.wrapper h1 {
+    color: #F05454;
+    position:  relative;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 45px;
+    letter-spacing: 5px;
+    z-index: 1;
+}
+.learn {
+    margin-top: 150px;
+}
+.wrapper {
+    margin: 20px auto 0 auto;
+    padding-bottom:50px;
+    padding-top: 20px;
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+}
+.wrapper::after {
+    content: '';
+    display: block;
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(6, 40, 61, 0.6);
+    z-index: 0;
+}
+.wrapper p {
+    color: #F05454;
+    width: 50%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    z-index: 1;
+    position: relative;
+}
