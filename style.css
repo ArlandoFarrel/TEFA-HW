@@ -2,7 +2,7 @@
     width: 100%;
     box-sizing: border-box;
     color: #06283D;
-    font-family: 'Lucida Grande';
+    font-family: 'Poppins';
     margin: 0px;
     padding: 0px;
 
@@ -22,6 +22,7 @@ body {
 .header {
     display: flex;
     align-items: center;
+
     height: 65px;
     background-color: rgba(220, 148, 76, 0.7);
     z-index: 10;
@@ -54,6 +55,7 @@ body {
     /* padding: 0px 10px 0px 10px; */
     display: flex;
     flex-direction: row;
+    margin: 0 10px 0 10px;
 }
 
 a {
@@ -64,7 +66,8 @@ a {
     border-radius: 24px;
     padding: 10px 20px;
     transition: all 0.5s;
-    margin-right: 30px;
+    
+    margin: 0 auto;
 }
 
 .header-right ul li a:hover {
@@ -180,12 +183,16 @@ i {
     background-size: cover;
     background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
 }
+.wrapper h1 {
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
 
 .wrapper p {
     color: #DC944C;
     width: 50%;
     margin: 0 auto;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     z-index: 1;
     position: relative;
 }
@@ -221,4 +228,20 @@ i {
 .bungkus a:hover {
     background: #06283D;
     color: #DC944C;
+}
+
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    background-color: aliceblue;
+}
+
+.menu-toggle span {
+    display: block ;
+    width: 20px;
+    height: 3px;
+    background-color: #06283D;
+    border-radius: 3px;
 }
