@@ -1,24 +1,35 @@
-
-
-
 @media all and (max-width: 1000px) {
     .header-left h1 {
         margin-left: 10px;
         width: 100px;
     }
+
     .header-right ul {
         width: 100%;
     }
-   .wrapper h1 {
-    font-size: 32px;
-   }
-   .bungkus a {
-    
-    width: 20%;
-   }
-   footer {
-    margin-top: 300px;
-   }
+
+    .wrapper h1 {
+        font-size: 32px;
+    }
+
+    .bungkus a {
+
+        width: 20%;
+    }
+
+    footer {
+        margin-top: 300px;
+    }
+    .box .col-4 {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 640px) {
@@ -27,27 +38,38 @@
         flex-direction: column;
         align-items: center;
     }
+
     .box .col-4 {
         width: 100%;
         margin: 80px 0;
     }
+
+    .menu-toggle {
+        display: flex;
+        width: 25%;
+        float: right;
+        align-items: center;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
     .menu-toggle i {
         display: flex;
         width: 25px;
-        float: right;
-        margin-right: 10px;
-       
+
     }
+
     .header-left h1 {
         margin-left: 10px;
         width: 100px;
     }
+
     .header-right ul {
-       position: absolute;
-       right: 0;
-       top: 0;
-       flex-direction: column;
-       height: 100vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        height: 100vh;
         align-items: center;
         justify-content: start;
         z-index: -1;
@@ -58,66 +80,84 @@
         transition: all 1s;
         padding-top: 50px;
         opacity: 0;
+
     }
+
     .active {
         background-color: #06283D;
         color: #DC944C;
     }
+
     .header-right ul.slide {
         transform: translateX(0);
         opacity: 1;
     }
+
     .header ul li a {
         color: #DC944C;
         font-size: 25px;
     }
+
     .header-right ul li {
         margin-top: 10px;
         padding-top: 0;
     }
-    .wrapper h1{
+
+    .wrapper h1 {
         text-align: left;
         width: 100%;
         margin-bottom: 5px;
     }
+
     .wrapper p {
         text-align: left;
         width: 100%;
         margin-bottom: 30px;
         margin-top: 10px;
     }
+
     .bungkus a {
         width: 100%;
     }
-    footer p{
+
+    footer p {
         font-size: 10px;
     }
+
     footer {
         font-size: 10px;
         display: block;
+        top: 0;
 
     }
+
     footer ul {
         text-align: left;
     }
+
     .thanks {
         display: block;
     }
+
     .box {
         margin-top: 20px;
     }
-    .box h2{
-       text-align: left;
+
+    .box h2 {
+        text-align: left;
     }
+
     .ico {
         margin-top: 20px;
         text-align: left;
     }
+
     .ico ul {
         display: flex;
         justify-content: start;
 
     }
+
     .ico ul li {
         margin-left: 0;
     }
