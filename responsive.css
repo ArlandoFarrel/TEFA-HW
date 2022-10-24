@@ -74,7 +74,7 @@
         justify-content: start;
         z-index: -1;
         width: 80%;
-        color: #DC944C;
+        color: #fff;
         background-color: #06283D;
         transform: translateX(100%);
         transition: all 1s;
@@ -85,7 +85,7 @@
 
     .active {
         background-color: #06283D;
-        color: #DC944C;
+        color: #fff;
     }
 
     .header-right ul.slide {
@@ -94,7 +94,7 @@
     }
 
     .header ul li a {
-        color: #DC944C;
+        color: #fff;
         font-size: 25px;
     }
 
