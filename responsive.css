@@ -1,23 +1,13 @@
 
-.menu-toggle {
-    display: flex;
-    flex-direction: column;
-    height: 20px;
-    background-color: aliceblue;
-    justify-content: space-between;
-}
 
-.menu-toggle span {
-    display: block ;
-    width: 20px;
-    height: 3px;
-    background-color: #06283D;
-    border-radius: 3px;
-}
 
 @media all and (max-width: 1000px) {
+    .header-left h1 {
+        margin-left: 10px;
+        width: 100px;
+    }
     .header-right ul {
-        width: 80%;
+        width: 100%;
     }
    .wrapper h1 {
     font-size: 32px;
@@ -28,13 +18,53 @@
    }
 }
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 640px) {
+    .menu-toggle i {
+        display: flex;
+        width: 25px;
+        float: right;
+        margin-right: 10px;
+       
+    }
+    .header-left h1 {
+        margin-left: 10px;
+        width: 100px;
+    }
     .header-right ul {
-        display: none;
+       position: absolute;
+       right: 0;
+       top: 0;
+       flex-direction: column;
+       height: 100vh;
+        align-items: center;
+        justify-content: start;
+        z-index: -1;
+        width: 80%;
+        color: #DC944C;
+        background-color: #06283D;
+        transform: translateX(100%);
+        transition: all 1s;
+        padding-top: 50px;
+        opacity: 0;
+    }
+    .active {
+        background-color: #06283D;
+        color: #DC944C;
+    }
+    .header-right ul.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .header ul li a {
+        color: #DC944C;
+        font-size: 25px;
+    }
+    .header-right ul li {
+        margin-top: 10px;
+        padding-top: 0;
     }
     .wrapper h1{
         text-align: left;
-        border: 1px solid;
         width: 100%;
         margin-bottom: 5px;
     }

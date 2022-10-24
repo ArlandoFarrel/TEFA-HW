@@ -36,37 +36,39 @@ body {
 
 .header-left h1 {
     font-weight: bold;
-
 }
 
 .header-right ul {
     list-style: none;
-    display: flex;
-    width: 60%;
     float: right;
+    display: flex;
+    width: 70%;
     /* margin-right: 200px; */
     justify-content: space-between;
     font-weight: bold;
-
-
 }
+
 
 .header-right ul li {
     /* padding: 0px 10px 0px 10px; */
     display: flex;
     flex-direction: row;
     margin: 0 10px 0 10px;
+   
 }
 
 a {
     text-decoration: none;
+}
+.menu-toggle i {
+    display: none;
+    color: #3C4048;
 }
 
 .header-right ul li a {
     border-radius: 24px;
     padding: 10px 20px;
     transition: all 0.5s;
-    
     margin: 0 auto;
 }
 
@@ -86,6 +88,7 @@ a {
     z-index: 1;
     margin: 0 auto;
     padding-top: 80px;
+    
 }
 
 .active {
@@ -231,17 +234,3 @@ i {
 }
 
 
-.menu-toggle {
-    display: flex;
-    flex-direction: column;
-    height: 20px;
-    background-color: aliceblue;
-}
-
-.menu-toggle span {
-    display: block ;
-    width: 20px;
-    height: 3px;
-    background-color: #06283D;
-    border-radius: 3px;
-}
