@@ -127,40 +127,41 @@ i {
     color: #256D85;
 }
 
-.member {
+.footer-content1 {
 
 
     text-align: left;
 }
 
-.member ul {
+.footer-content1 ul {
     margin-top: 10px;
 }
 
-.thanks {
+.footer-main-content {
     text-align: center;
     display: flex;
     margin: 0 auto;
     width: 100%;
     padding-top: 20px;
+    border: 1px solid;
 }
 
-footer .box {
+footer .footer-content2 {
     display: block;
 }
 
 
-.box ul {
+.footer-content2 ul {
     margin-top: 10px;
 }
 
 
-.ico ul {
+.footer-content3 ul {
     display: flex;
     justify-content: center;
 }
 
-.ico ul li {
+.footer-content3 ul li {
     width: 30px;
     align-items: center;
     margin: 10px 20px 0 20px;
@@ -217,22 +218,22 @@ footer .box {
     padding-top: 85px;
 }
 
-.bungkus h3 {
+.heading h3 {
     color: #FFFFFF;
     margin-top: 10px;
 }
 
-.bungkus h2 {
+.heading h2 {
     color: #FFFFFF;
 }
 
-.bungkus {
+.heading {
     text-align: center;
     width: 75%;
     margin: 0 auto;
 }
 
-.bungkus a {
+.heading a {
     background: #256D85;
     padding: 10px 18px;
     text-decoration: none;
@@ -246,7 +247,7 @@ footer .box {
     transition: 0.5s;
 }
 
-.bungkus a:hover {
+.heading a:hover {
     background: #47B5FF;
     color: #06283D;
 }
@@ -263,23 +264,38 @@ footer .box {
 
 .box .col-4 {
     cursor: pointer;
-    max-height: 600px;
+    max-height: 550px;
     margin: 0 auto;
     transition: all 0.8s;
     /* width: 25%; */
     color: white;
+    box-sizing: border-box;
+    height: 500px;
+    /* margin: 0 10px 0 10px; */
+    padding: 60px;
+    text-align: center;
+    transition: all 0.8s;
+    width: 25%;
+
 }
 
 .box .col-4:hover {
     background-size: cover;
     box-shadow: 0px 15px 25px rgba(46, 31, 255, 0.7);
     color: rgb(0, 4, 65, 0.7);
+    background-color: #47B5FF;
+    background-size: cover;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    height: 100%;
 }
 
 .box .col-4 h5 {
     font-size: large;
     margin: 20px 0;
     color: white;
+    
+    font-size: large;
+    margin: 20px 0;
 }
 
 .box .col-4 img {
@@ -318,43 +334,11 @@ footer .box {
     margin: 10px 0;
 }
 
-.box {
-    display: flex;
-
-}
-
-.box .col-4 {
-    box-sizing: border-box;
-    cursor: pointer;
-    height: 500px;
-    /* margin: 0 10px 0 10px; */
-    padding: 60px;
-    text-align: center;
-    transition: all 0.8s;
-    width: 25%;
-
-}
-
-.box .col-4:hover {
-    background-color: #47B5FF;
-    background-size: cover;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
-    height: 100%;
-}
-
-.box .col-4 h5 {
-    font-size: large;
-    margin: 20px 0;
-}
 
 .box .col-4 p {
     font-size: large;
     margin: 20px 0;
     color: white;
-}
-
-.box .col-4:hover{
-    color: #06283D;
 }
 
 /* .icon {
