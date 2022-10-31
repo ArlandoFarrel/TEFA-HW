@@ -112,6 +112,7 @@ footer {
     background-color: #DFF6FF;
     display: flex;
     font-size: medium;
+
 }
 
 ul {
@@ -188,7 +189,7 @@ footer .footer-content2 {
     min-height: 114vh;
     background-size: cover;
     background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
 }
 
 .wrapper h1 {
@@ -261,20 +262,19 @@ footer .footer-content2 {
     border-radius: 10px;
 }
 
-.box .col-4 {
+.box .col-4 {  
     cursor: pointer;
-    max-height: 550px;
-    margin: 0 auto;
+    height: 600px;
     transition: all 0.8s;
     /* width: 25%; */
     color: white;
     box-sizing: border-box;
-    height: 500px;
+    height: 600px;
     /* margin: 0 10px 0 10px; */
     padding: 60px;
     text-align: center;
     transition: all 0.8s;
-    width: 25%;
+    width:1000px ;
 
 }
 
@@ -285,26 +285,26 @@ footer .footer-content2 {
     background-color: #47B5FF;
     background-size: cover;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
-    height: 100%;
 }
 
 .box .col-4 h5 {
     font-size: large;
     margin: 20px 0;
     color: white;
-    
+
     font-size: large;
     margin: 20px 0;
 }
 
 .box .col-4 img {
-    max-width: 170px;
+    width: 170px;
 }
 
 .box {
     display: flex;
     margin-bottom: 120px;
     color: white;
+    /* position: relative; */
 }
 
 .menu-toggle {
@@ -353,5 +353,70 @@ footer .footer-content2 {
 .team .col-4 {
     color: white;
 }
+.container .swiper {
+    margin-top: 100px;
+}
+.swiper {
+    width: 600px;
+    height: 500px;
+    color: white;
+    width: 100%;
+}
+
+.swiper-slide img {
+    /* width: 30%;
+
+    margin: 0 30%;
+    max-height: 2000px;
+    height: 200px; */
+    width: 30%;
+    height: 80%;
+    margin: 10px 35%;
+}
 
 
+.bio-content {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.bio-main {
+    width: 40%;
+    height: 80%;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #47B5FF;
+}
+.bio-main h3 {
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+}
+.bio-main p {
+    margin-left: 10px;
+    border: 1px solid;
+    width: 70%;
+}
+.bio-photo {
+    width: 30%;
+    height: 80%;
+    
+    float: right;
+    margin:0 50px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.bio-photo img {
+    position: cover;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.bio-wrapper {
+    margin: 20px 0;
+}
