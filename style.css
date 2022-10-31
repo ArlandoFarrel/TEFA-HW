@@ -386,16 +386,17 @@ footer .footer-content2 {
     height: 80%;
     border-radius: 20px;
     margin: auto;
-    background-color: #47B5FF;
+    
 }
 .bio-main h3 {
+    color: white;
     width: 50%;
     text-align: center;
     margin: 10px auto;
 }
 .bio-main p {
+    color: white;
     margin-left: 10px;
-    border: 1px solid;
     width: 70%;
 }
 .bio-photo {
@@ -437,4 +438,11 @@ footer .footer-content2 {
     width: 85%;
     margin: 0 auto;
     
+}
+.bio-add {
+    margin-top: 20px;
+}
+.bio-add h3 {
+    color: white;
+    text-align: center;
 }
