@@ -39,12 +39,6 @@
 
 
 <main>
-  <ul>
-    <li data-tab-target="#anggota1">Anggota 1</li>
-    <li data-tab-target="#anggota2">Anggota 2</li>
-    <li data-tab-target="#anggota3">Anggota 3</li>
-    <li data-tab-target="#anggota4">Anggota 4</li>
-  </ul>
   <div class="container">
   <div class="swiper">
     <!-- Additional required wrapper -->
@@ -74,12 +68,35 @@
   </div>
   </div>
 
+  <div class="tab">
+  <ul>
+    <li data-tab-target="#anggota1" class="active tab">Anggota 1</li>
+    <li data-tab-target="#anggota2" class="tab">Anggota 2</li>
+    <li data-tab-target="#anggota3" class="tab">Anggota 3</li>
+    <li data-tab-target="#anggota4" class="tab">Anggota 4</li>
+  </ul>
+</div>
+  <div class="bio-wrapper">
+    <div class="container">
+      <div class="bio-content" id="anggota1" data-tab-content class="active">
+    <div class="bio-main">
+      <h3>Arlando Muhammad Farrel</h3>
+      <p>Farrel menyukai hal yang berbau video game</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id suscipit nemo provident sapiente voluptates corporis reprehenderit quae veniam praesentium? Sunt consectetur quam eligendi praesentium laboriosam eum aliquid dicta obcaecati.</p>
+    </div>
+    <div class="bio-photo">
+      <img src="img/fotof.jpeg" alt="">
+    </div>
+  </div>
+</div>
+  </div>
+
 
   <div class="bio-wrapper">
     <div class="container">
-      <div class="bio-content">
+      <div class="bio-content" id="anggota2" data-tab-content>
     <div class="bio-main">
-      <h3>Arlando Muhammad Farrel</h3>
+      <h3>Arlando Muhammad </h3>
       <p>Farrel menyukai hal yang berbau video game</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id suscipit nemo provident sapiente voluptates corporis reprehenderit quae veniam praesentium? Sunt consectetur quam eligendi praesentium laboriosam eum aliquid dicta obcaecati.</p>
     </div>
