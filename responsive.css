@@ -126,39 +126,38 @@
 
     footer {
         font-size: 10px;
-        display: block;
         top: 0;
-
     }
 
     footer ul {
         text-align: left;
     }
 
-    .thanks {
+    .footer-content2 {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .footer-main-content {
         display: block;
     }
 
-    .box {
-        margin-top: 20px;
-    }
-
-    .box h2 {
+    .footer-main-content h2 {
         text-align: left;
     }
 
-    .ico {
+    .footer-content3 {
         margin-top: 20px;
         text-align: left;
     }
 
-    .ico ul {
+    .footer-content3 ul {
         display: flex;
         justify-content: start;
 
     }
 
-    .ico ul li {
+    .footer-content3 ul li {
         margin-left: 0;
     }
 }
