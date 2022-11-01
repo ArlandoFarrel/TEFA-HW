@@ -1,4 +1,16 @@
 @media all and (max-width: 1000px) {
+    .bio-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bio-photo {
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        padding: 0 2.8rem;
+    
+    }
     .header-left h1 {
         margin-left: 10px;
         width: 100px;
@@ -48,6 +60,24 @@
 }
 
 @media all and (max-width: 640px) {
+    .bio-main {
+        display: flex;
+        flex-direction: column;
+        height: 2000px;
+    }
+    .bio-photo{
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+        padding: 0 2.8rem;
+    
+    }
+    .bio-photo img{
+        float: left;
+        height: 100%;
+        margin: 0;
+        margin-left: 0;
+    }
     .box {
         display: flex;
         flex-direction: column;

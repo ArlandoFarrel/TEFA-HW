@@ -11,106 +11,184 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="responsive.css">
   <script src="tabbing.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
 <body>
   <header>
     <center>
-    <section class="header">
+      <section class="header">
         <div class="header-left">
-        <h1>Group 3</h1>
+          <h1>Group 3</h1>
         </div>
         <div class="header-right">
-            <ul>
-                
-                <li><a href="home.html">Home</a></li>
-                <li><a href="ourteam.html" >Our Team</a></li>
-                <li><a href="index.html" >Video</a></li>
-                <li><a href="detail.html" class="active">Detail</a></li>
-            
-            </ul>
-            <div class="menu-toggle">
-                <i class="fa-solid fa-bars fa-2x"></i>
-            </div>
-    </div>
+          <ul>
+
+            <li><a href="home.html">Home</a></li>
+            <li><a href="ourteam.html">Our Team</a></li>
+            <li><a href="index.html">Video</a></li>
+            <li><a href="detail.html" class="active">Detail</a></li>
+
+          </ul>
+          <div class="menu-toggle">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+        </div>
     </center>
     </section>
-</header>
+  </header>
 
 
-<main>
-  <div class="container">
-  <div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">
-        <img src="img/farrel.JPG" alt="">
+  <main class="main">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="img/farrel.JPG" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/dila.JPG" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/grisel.JPG" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/zalfa.JPG" alt="">
+        </div>
       </div>
-      <div class="swiper-slide">
-        <img src="img/dila.JPG" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/grisel.JPG" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/zalfa.JPG" alt="">
-      </div>
-      ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
 
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
 
-  </div>
-  </div>
-
-  <div class="tab">
-  <ul>
-    <li data-tab-target="#anggota1" class="active tab">Anggota 1</li>
-    <li data-tab-target="#anggota2" class="tab">Anggota 2</li>
-    <li data-tab-target="#anggota3" class="tab">Anggota 3</li>
-    <li data-tab-target="#anggota4" class="tab">Anggota 4</li>
-  </ul>
-</div>
-  <div class="bio-wrapper">
-    <div class="container">
-      <div class="bio-content" id="anggota1" data-tab-content class="active">
-    <div class="bio-main">
-      <h3>Arlando Muhammad Farrel</h3>
-      <p>Farrel menyukai hal yang berbau video game</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id suscipit nemo provident sapiente voluptates corporis reprehenderit quae veniam praesentium? Sunt consectetur quam eligendi praesentium laboriosam eum aliquid dicta obcaecati.</p>
-    </div>
-    <div class="bio-photo">
-      <img src="img/fotof.jpeg" alt="">
     </div>
     
-  <div class="bio-add">
-    <h3>My Favorite Place</h3>
-  </div>
-  </div>
-</div>
-  </div>
-
-
-  <div class="bio-wrapper">
     <div class="container">
-      <div class="bio-content" id="anggota2" data-tab-content>
-    <div class="bio-main">
-      <h3>Fadhila Zalfa Alisya</h3>
-      <p>Farrel menyukai hal yang berbau video game</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id suscipit nemo provident sapiente voluptates corporis reprehenderit quae veniam praesentium? Sunt consectetur quam eligendi praesentium laboriosam eum aliquid dicta obcaecati.</p>
+      <div class="tab">
+        <ul>
+          <li data-tab-target="#anggota1" class="active tab">Anggota 1</li>
+          <li data-tab-target="#anggota2" class="tab">Anggota 2</li>
+          <li data-tab-target="#anggota3" class="tab">Anggota 3</li>
+          <li data-tab-target="#anggota4" class="tab">Anggota 4</li>
+        </ul>
+      </div>
+
+
+      <div class="bio-wrapper">
+        <div class="container">
+          <div class="bio-content" id="anggota1" data-tab-content class="active">
+ 
+
+            <div class="bio-main">
+              <div class="main-content">
+                <h1>Arlando Muhammad Farrel</h1>
+                <p>Farrel menyukai hal yang berbau video game</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id suscipit nemo provident sapiente
+                  voluptates corporis reprehenderit quae veniam praesentium? Sunt consectetur quam eligendi praesentium
+                  laboriosam eum aliquid dicta obcaecati.</p>
+              </div>
+              <div class="bio-photo">
+                <img src="img/fotof.jpeg" alt="">
+              </div>
+            </div>
+
+            <div class="bio-add">
+              <h3>My Favorite Place</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="bio-wrapper">
+        <div class="container">
+          <div class="bio-content" id="anggota2" data-tab-content >
+
+            <div class="bio-main">
+              <div class="main-content">
+                <h1>Arlando Muhammad Farrel</h1>
+                <p>Farrel menyukai hal yang berbau video game</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id suscipit nemo provident sapiente
+                  voluptates corporis reprehenderit quae veniam praesentium? Sunt consectetur quam eligendi praesentium
+                  laboriosam eum aliquid dicta obcaecati.</p>
+              </div>
+              <div class="bio-photo">
+                <img src="img/fotof.jpeg" alt="">
+              </div>
+            </div>
+
+            <div class="bio-add">
+              <h3>My Favorite Place</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="bio-wrapper">
+        <div class="container">
+          <div class="bio-content" id="anggota3" data-tab-content >
+
+
+            <div class="bio-main">
+              <div class="main-content">
+                <h1>Arlando Muhammad Farrel</h1>
+                <p>Farrel menyukai hal yang berbau video game</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id suscipit nemo provident sapiente
+                  voluptates corporis reprehenderit quae veniam praesentium? Sunt consectetur quam eligendi praesentium
+                  laboriosam eum aliquid dicta obcaecati.</p>
+              </div>
+              <div class="bio-photo">
+                <img src="img/fotof.jpeg" alt="">
+              </div>
+            </div>
+
+            <div class="bio-add">
+              <h3>My Favorite Place</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="bio-wrapper">
+        <div class="container">
+          <div class="bio-content" id="anggota4" data-tab-content>
+            
+            
+
+
+            <div class="bio-main">
+              <div class="main-content">
+                <h1>Arlando Muhammad Farrel</h1>
+                <p>Farrel menyukai hal yang berbau video game</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id suscipit nemo provident sapiente
+                  voluptates corporis reprehenderit quae veniam praesentium? Sunt consectetur quam eligendi praesentium
+                  laboriosam eum aliquid dicta obcaecati.</p>
+              </div>
+              <div class="bio-photo">
+                <img src="img/fotof.jpeg" alt="">
+              </div>
+            </div>
+
+            <div class="bio-add">
+              <h3>My Favorite Place</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
-    <div class="bio-photo">
-      <img src="img/zalfa.JPG" alt="">
-    </div>
-  </div>
-</div>
-  </div>
-</main>
+  </main>
 
   <footer>
     <div class="container">

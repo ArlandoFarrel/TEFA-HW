@@ -3,8 +3,8 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     autoplay: {
-        delay: 4000,
-      },
+        delay: 1000
+    },
   
     // If we need pagination
     pagination: {
@@ -19,4 +19,5 @@ const swiper = new Swiper('.swiper', {
   
     // And if we need scrollbar
    
-  });
+});
+

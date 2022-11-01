@@ -112,7 +112,8 @@ footer {
     background-color: #DFF6FF;
     display: flex;
     font-size: medium;
-
+    position: static;
+    margin-top: 200px;
 }
 
 ul {
@@ -357,7 +358,7 @@ footer .footer-content2 {
     margin-top: 100px;
 }
 .swiper {
-    width: 600px;
+    margin-top: 100px;
     height: 500px;
     color: white;
     width: 100%;
@@ -382,29 +383,28 @@ footer .footer-content2 {
 }
 
 .bio-main {
-    width: 50%;
+    width: 80%;
     height: 80%;
     border-radius: 20px;
     margin: auto;
-    
+    display: flex;
 }
-.bio-main h3 {
+.bio-main h1 {
     color: white;
     width: 50%;
-    text-align: center;
-    margin: 10px auto;
+    
+    margin: 50px 40px 0 40px;
 }
 .bio-main p {
     color: white;
-    margin-left: 10px;
+    margin-left: 40px;
     width: 70%;
 }
 .bio-photo {
-    width: 30%;
+    width: 40%;
     height: 80%;
-    
     float: right;
-    margin:0 50px;
+    
     margin: auto;
     border-radius: 20px;
 
@@ -426,6 +426,7 @@ footer .footer-content2 {
 
 .active[data-tab-content] {
     display: flex;
+    flex-direction: column;
 }
 
 .tab ul li {
@@ -437,12 +438,20 @@ footer .footer-content2 {
     display: flex;
     width: 85%;
     margin: 0 auto;
-    
+    margin-top: 100px;
 }
 .bio-add {
     margin-top: 20px;
 }
-.bio-add h3 {
+.bio-add h1 {
     color: white;
     text-align: center;
+}
+
+.main-content {
+    display: block;
+}
+
+.main {
+    height: 100rem;
 }
