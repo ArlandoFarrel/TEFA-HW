@@ -440,10 +440,11 @@ footer .footer-content2 {
     margin: 0 auto;
     margin-top: 100px;
 }
+
 .bio-add {
-    margin-top: 20px;
+    margin-top: 200px;
 }
-.bio-add h1 {
+.bio-add h3 {
     color: white;
     text-align: center;
 }
@@ -454,4 +455,8 @@ footer .footer-content2 {
 
 .main {
     height: 100rem;
+}
+
+iframe {
+    border: 20px solid red;
 }
