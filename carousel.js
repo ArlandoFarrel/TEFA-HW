@@ -3,7 +3,7 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     autoplay: {
-        delay: 1000
+        delay: 4000
     },
   
     // If we need pagination
