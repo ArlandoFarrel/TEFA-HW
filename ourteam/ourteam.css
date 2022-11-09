@@ -191,6 +191,14 @@ i {
   height: 100rem;
 }
 
+.service {
+  margin-top: 100px;
+}
+.service h1 {
+  text-align: center;
+  color: #fff;
+}
+
 @media all and (max-width: 1000px) {
   .header-left h1 {
     margin-left: 10px;
