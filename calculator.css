@@ -67,7 +67,7 @@
   font-weight: 500;
   color: var(--txt-color);
   background-color: var(--calc-btn-color);
-  -webkit-border-radius: 20px;
+  -webkit-border-radius: 40px;
   /* -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px; */
@@ -75,7 +75,7 @@
 .calculator__btns button:nth-child(4n) {
   border: 0;
   outline: 0;
-  border-radius: 20px;
+  border-radius: 40px;
   font-weight: 500;
   background-color: #47B5FF;
   color: white;
