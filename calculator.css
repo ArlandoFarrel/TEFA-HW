@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 :root {
-  --body-bg: #DFF6FF;
+  --body-bg: #06283D;
   --txt-color: #0f172a;
   --txt-white: #fff;
   --calc-res-color: #2f2d2f;
@@ -14,9 +14,9 @@
 .dark {
   --calc-res-color: #fff;
   --txt-color: #06283D;
-  /* --txt-white: #06283D;
-  --calc-bg: #06283D;
-  --calc-bg-4button: #22c55e; */
+  --txt-white: #06283D;
+  --calc-bg: #1F4690;
+  --calc-bg-4button: #22c55e;
   --calc-btn-color: #DFF6FF;
   --calc-bg-1line: #47B5FF;
 }
